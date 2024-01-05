@@ -11,8 +11,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-    package_data={'plastexdepgraph': ['static/*', 'templates/*', 'Packages/*',
-                                    'Packages/renderer_templates/*']},
+    package_data={'plastexdepgraph': ['static/*', 'Packages/*']},
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: Apache Software License",
